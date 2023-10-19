@@ -1,0 +1,27 @@
+.cardCont {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #3F72AF;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #112D4E;
+  position: relative;
+  background: linear-gradient(90deg, #dbe2ef 50%, #3f72af 100%);
+  gap: 40px;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    width: 40%;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  img {
+    position: absolute;
+    width: 400px;
+    right: 100px;
+  }
+}

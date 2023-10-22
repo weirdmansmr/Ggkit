@@ -1,9 +1,9 @@
-import Header from "../components/Header/Header";
+import LessonCont from "../components/LessonCont/LessonCont";
 
 const Lesson = () => {
 	return (
 		<>
-			<Header />
+			<LessonCont />
 		</>
 	);
 };

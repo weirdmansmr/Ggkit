@@ -5,12 +5,18 @@ import style from "./CardList.module.scss";
 const CardList = () => {
 	return (
 		<div className={style.cardList}>
-			<Link to={''}>
+			<Link to={"lesson"}>
 				<Card />
 			</Link>
-			<Card />
-			<Card />
-			<Card />
+			<Link to={"lesson"}>
+				<Card />
+			</Link>
+			<Link to={"lesson"}>
+				<Card />
+			</Link>
+			<Link to={"lesson"}>
+				<Card />
+			</Link>
 		</div>
 	);
 };

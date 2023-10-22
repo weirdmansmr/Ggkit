@@ -1,5 +1,5 @@
 import { FaUserGraduate } from "react-icons/fa6";
-import style from "./style.module.scss";
+import style from "./Login.module.scss";
 
 const Login = () => {
 	return (

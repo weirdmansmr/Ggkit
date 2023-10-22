@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 const Logo = () => {
-  return (
+	return (
 		<div
 			style={{
 				fontSize: 28,
@@ -8,7 +10,9 @@ const Logo = () => {
 				color: "#F9F7F7",
 			}}
 		>
-			GGK<span style={{ color: "#112D4E" }}>IT</span>
+			<Link to={"/"}>
+				GGK<span style={{ color: "#112D4E" }}>IT</span>
+			</Link>
 		</div>
 	);
 };

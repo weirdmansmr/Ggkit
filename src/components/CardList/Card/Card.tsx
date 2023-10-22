@@ -1,21 +1,30 @@
 import style from "./Card.module.scss";
-import img from '../../../assets/pngwing.com (9).png'
+import img from "../../../assets/pngwing.com (9).png";
+import { motion } from "framer-motion";
 
 const Card = () => {
 	return (
-		<div className={style.cardCont}>
-			<h1>Информатика</h1>
+		<motion.div
+			transition={{ duration: 0.2 }}
+			whileHover={{
+				background: "linear-gradient(90deg, #3f72af 0%, #dbe2ef 100%)",
+				transform: "scale(1.05)",
+				color: "#dbe2ef",
+			}}
+			style={{
+				background: "linear-gradient(90deg, #dbe2ef 50%, #3f72af 100%)",
+				color: "#112D4E",
+			}}
+			className={style.cardCont}
+		>
+			<h2>Информатика</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta et
 				voluptatibus optio asperiores eum natus magnam a quis facere accusantium
 				rerum quas nemo reiciendis nihil, molestias porro dolores, sequi ipsa?
-				Perspiciatis consectetur corrupti a, explicabo animi eos. Molestias
-				sapiente animi ex repudiandae eaque corporis quidem repellendus facilis
-				explicabo, dolorem quis ut ducimus quia. Vitae quis, quam aut accusamus
-				nobis natus?
 			</p>
-      <img src={img} alt="" />
-		</div>
+			<img src={img} alt="" />
+		</motion.div>
 	);
 };
 

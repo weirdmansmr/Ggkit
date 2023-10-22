@@ -1,7 +1,7 @@
 import Login from "./Login/Login";
 import Logo from "./Logo/Logo";
 import NavBar from "./NavBar/NavBar";
-import style from "./style.module.scss";
+import style from "./Header.module.scss";
 
 const Header = () => {
 	return (

@@ -1,0 +1,15 @@
+.logInput {
+  height: 40px;
+  width: 400px;
+  padding: 0 0 0 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 0;
+  color: #112d4e;
+  font-size: 16px;
+  background-color: #dbe2ef;
+  &::placeholder {
+    color: #112d4e85;
+    font-size: 16px;
+  }
+}

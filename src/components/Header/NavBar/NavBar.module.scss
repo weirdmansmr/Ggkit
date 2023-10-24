@@ -1,0 +1,19 @@
+.navCont {
+  font-weight: 600;
+  color: #F9F7F7;
+  font-size: 18px;
+  
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  li {
+    cursor: pointer;
+    transition: .2s;
+    &:hover {
+      color: #112D4E;
+    }
+  }
+}

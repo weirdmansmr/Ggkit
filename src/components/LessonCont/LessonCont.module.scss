@@ -1,0 +1,15 @@
+.lessonCont {
+  width: 80%;
+  margin: 50px auto;
+  p {
+    text-align: justify;
+    line-height: 32px;
+    font-size: 22px;
+    margin: 20px 0;
+    &::first-letter {
+      color: #3f71af;
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+}
